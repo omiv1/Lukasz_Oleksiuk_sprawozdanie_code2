@@ -14,6 +14,9 @@ commits:
 6) rozwinięcie pliku makefile o reguły wzorców
 7) dodanie metody clean do pliku makefile (umożliwia usunięcie plików .o .so i pliku code2)
 8) dodanie pliku README.md do repozytorium
+9) przekształcenie repo do struktóry drzewiastej
+10) dodanie pliku README_extra.md (i aktualizacja README.md)
+
 
 ##Dodanie_biblioteki
 Aby plik makefile zadziałał poprawinie należy załączyć bibliotekę dynamiczną libobjetosc.so
