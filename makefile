@@ -1,4 +1,6 @@
 ALL = code2 code2.o pole.o objetosc.o libpole.a libobjetosc.so
+.PHONY: clean
+
 all: $(ALL)
 
 %e.o: %e.c
@@ -25,3 +27,6 @@ Pole.o: pole.c
 libpole.a: pole.o
 libobjetosc.so: objetosc.o
 code2: code2.o libpole.a libobjetosc.so
+
+clean:
+	rm -f code2 *.o *.a *.so
